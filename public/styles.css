@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    color: yellow;
+    background-color: tomato;
+}
+
+.Header{
+    background: #d9ecf2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Card{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.Day{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+.WeatherPicture{
+    height: 90px;
+    width: 90px;
+    margin-left: 45px;
+    padding: 10px;
+}
+.WordDescription{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+.Temperature{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+.WeatherCards{
+    display: flex;
+    padding: 30px;
+}
